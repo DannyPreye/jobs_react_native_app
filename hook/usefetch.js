@@ -4,8 +4,6 @@ import { RAPID_API_KEY } from "@env";
 
 const rapidapiKey = RAPID_API_KEY;
 
-console.log("api key", rapidapiKey);
-
 const useFetch = (url, query) => {
     const [data, setData] = useState([]);
     const [isloading, setIsloading] = useState(false);
